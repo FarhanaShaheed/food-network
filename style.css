@@ -21,15 +21,15 @@ section {
     color: rgb(107, 101, 101);
 }
 
-h1 {
+.title h1 {
     font-size: 50px;
-    font-weight: 900;
+    font-weight: bold;
 
 }
 
 h2 {
-    font-weight: 700px;
-    font-size: x-large;
+    font-weight: bolder;
+    font-size: 35px;
 }
 
 a {
@@ -46,11 +46,12 @@ p {
 }
 
 button {
-    height: 45px;
-    width: 130px;
+    height: 50px;
+    width: 150px;
     border-radius: 20px;
     background-image: linear-gradient(orange, red);
     border: none;
+    font-size: 18px;
 }
 
 span {
@@ -95,6 +96,7 @@ span {
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     height: 500px;
+    width: auto;
 }
 
 .recipies {
@@ -108,11 +110,15 @@ span {
     color: black;
 }
 
+.recipies-card {
+    display: flex;
+    justify-content: space-around;
+}
+
 .menu {
-    box-shadow: 5px 10px 18px #888888;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 10%);
     width: 25%;
     border-radius: 5%;
-    margin-left: 5%;
     padding: 15px 15px 15px 15px;
     color: black;
 }
@@ -127,24 +133,36 @@ h3 {
 }
 
 .forth {
-    box-shadow: 5px 10px 18px #888888;
-    margin-top: 100px;
-    margin-left: 200px;
-    border-radius: 25px;
-    width: 60%;
-    height: 200px;
-    padding-left: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+.forth-one {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 10%);
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .follower {
     color: black;
-    padding-left: 50px;
     text-align: center;
 }
 
 
 .follower p {
     margin-top: -50px;
+    font-size: 16px;
+}
+
+.follower h1 {
+    font-size: 48px;
+    font-weight: 900px;
+
 }
 
 .footer {
