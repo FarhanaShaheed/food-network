@@ -3,19 +3,26 @@ body {
 }
 
 section {
-    display: flex;
     color: rgb(107, 101, 101);
 }
 
 h1 {
     font-size: 50px;
+    font-weight: 900;
 
 }
 
 a {
     text-decoration: none;
     color: white;
-    font-weight: 700;
+    font-weight: 700px;
+    font-size: medium;
+
+}
+
+p {
+    margin-bottom: 40px;
+
 }
 
 button {
@@ -34,7 +41,7 @@ span {
     width: 50%;
 }
 
-img {
+.group {
     margin-top: 30px;
     width: 80%;
 }
@@ -42,4 +49,84 @@ img {
 .introduction {
     margin-top: 100px;
     margin-left: 70px;
+}
+
+.flexible-class {
+    display: flex;
+}
+
+.about {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.person {
+    margin-top: 88px;
+    margin-left: 170px;
+    height: 412px;
+
+}
+
+.second {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.recipies {
+    text-align: center;
+}
+
+.recipies p {
+
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.menu {
+    box-shadow: 5px 10px 18px #888888;
+    width: 25%;
+    border-radius: 5%;
+    margin-left: 5%;
+    padding: 15px 15px 15px 15px;
+}
+
+.menu img {
+    width: 100%;
+}
+
+h3 {
+    font-weight: 900;
+    color: black;
+}
+
+.forth {
+    box-shadow: 5px 10px 18px #888888;
+    margin-top: 100px;
+    margin-left: 200px;
+    border-radius: 25px;
+    width: 60%;
+    height: 200px;
+    padding-left: 200px;
+}
+
+.follower {
+    color: black;
+    padding-right: 50px;
+}
+
+.follower p {
+    margin-top: -50px;
+}
+
+.footer {
+    background-color: rgb(41, 35, 35);
+    text-align: center;
+    height: 200px;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.footer p {
+    color: white;
 }
