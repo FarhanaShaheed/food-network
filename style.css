@@ -139,6 +139,7 @@ h3 {
 .follower {
     color: black;
     padding-left: 50px;
+    text-align: center;
 }
 
 
@@ -156,4 +157,14 @@ h3 {
 
 .footer p {
     color: white;
+}
+
+.extra {
+    background-image: url(images/shapes/Group\ 8448.png);
+    text-align: center;
+}
+
+.extra img {
+    width: 15%;
+    border-radius: 10%;
 }
